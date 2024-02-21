@@ -20,3 +20,6 @@ Write rules into a Json file.
 Put the configuration file `varmilo.json` under the folder: `~/.config/karabiner/assets/complex_modifications/`
 
 Open Karabiner-Elements -> Complex modifications -> Add rule
+
+## The effect after importing the rules is as follows
+![](https://s2.loli.net/2024/02/21/QOXc46R9Y1WIw2e.png)
