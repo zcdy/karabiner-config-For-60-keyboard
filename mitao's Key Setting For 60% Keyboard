@@ -526,7 +526,7 @@
             ]
         },
         {
-            "description":"【EditKey】Fn + ijkl to arrow keys)",
+            "description":"【EditKey】Fn + ijkl to arrow keys",
             "manipulators":[
                 {
                     "type":"basic",
@@ -796,44 +796,12 @@
             ]
         },
         {
-            "description":"【MediaKey】Media Playback Control Mute & Pause:Fn+. = mute/unmute, Fn+p = Play/Pause,Fn+/ = Play/Pause",
+            "description":"【MediaKey】Media Playback Control Mute & Pause:Fn+p = Play/Pause",
             "manipulators":[
                 {
                     "type":"basic",
                     "from":{
-                        "key_code":"period",
-                        "modifiers":{
-                            "mandatory":[
-                                "fn"
-                            ]
-                        }
-                    },
-                    "to":[
-                        {
-                            "key_code":"mute"
-                        }
-                    ]
-                },
-                {
-                    "type":"basic",
-                    "from":{
                         "key_code":"p",
-                        "modifiers":{
-                            "mandatory":[
-                                "fn"
-                            ]
-                        }
-                    },
-                    "to":[
-                        {
-                            "key_code":"play_or_pause"
-                        }
-                    ]
-                },
-                {
-                    "type":"basic",
-                    "from":{
-                        "key_code":"slash",
                         "modifiers":{
                             "mandatory":[
                                 "fn"
